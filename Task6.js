@@ -18,7 +18,7 @@ else if (age >= 12 && age <= 28) {
   //50% discount
   const discount = 800 * 50 / 100;
   const payAmmount = regularFare - discount;
-  console.log('You Get a 50% discount. Now Pay : ' + payAmmount);
+  console.log('You Get a 50% discount. Now Pay : ' + payAmmount);   // true
 }
 else if (age >= 60) {
   //15% discount
